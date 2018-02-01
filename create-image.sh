@@ -20,7 +20,7 @@ for input in "$@" ; do
     fi
 done
 
-# Workaround missing loopback devices in newer system, where they are created
+# Workaround missing loopback devices in newer systems, where they are created
 # dynamically. "losetup --find" will enforce their existence before running
 # "./flash.sh".
 # https://devtalk.nvidia.com/default/topic/760912/flashing-r19-3-mapping-system-img-to-loop-device-failed-/
